@@ -1,15 +1,17 @@
 <!doctype html>
 {% load static %}
-<html lang="ru" class="h-100"><head>
+<html lang="ru" class="h-100">
+
+<head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
 	<!-- Bootstrap core CSS -->
-<link href="/docs/5.2/dist/css/bootstrap.min.css?v=52" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="/docs/5.2/dist/css/bootstrap.min.css?v=52" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
-
+    <title>{% block title %}{% endblock %}</title>
 
 	<!-- Favicons -->
     <!--
@@ -91,6 +93,7 @@
    </div>
    <div class="col-1"></div>
 </div>
+</div>
 
-
-</body></html>
+</body>
+</html>
