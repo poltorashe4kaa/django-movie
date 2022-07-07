@@ -17,7 +17,6 @@ def player_page(request, kinopoisk_id):
 
 def films_page(request):
     return render(request, 'movies/films.html')
-    # return HttpResponse("<h4>Hello</h4>")
 
 
 def series_page(request):
